@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+button {
+    text-align: center;
+    margin: 10px center;
+    width: 10vw;
+    height: 10vh;
+    background-color: rgb(21, 75, 126);
+    color: white;
+    border-radius: 25px;
+    position: sticky;
+    left: 43.5%;
+}
+
+.createpost {
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 220px;
+    border: 2px solid black;
+    width: 70vw;
+    height: 70vh;
+    background-color: white;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.submit {
+    position: static;
+    width: 50px;
+    height: 25px;
+}
+
+.postContainer {
+    border: 2px solid black;
+    width: 70vw;
+    height: 170vh;
+    margin: 10px 215px;
+    border-radius: 25px;
+    padding: 10px;
+    
+}
+
+.userId {
+    width: 100%;
+    height: 60%;
+}
+
+ul {
+    margin: 10px auto;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+    list-style-type: none;
+    /* gap: 50px; */
+    border: 2px solid black;
+    width: 60vw;
+    border-radius: 25px;
+    height: 10vh;
+    
+}
+
+.ul li button {
+    height: 8vh;
+}
+
+.boost {
+    border-radius: 20px;
+    background-color: #1877F2;
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    left: 1000px;
+}
+
+.txt {
+    color: #1877F2;
+    font-weight: 900;
+    position: absolute;
+    bottom: -400px;
+}
+
+
+
